@@ -51,7 +51,7 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "LOVE YOU MORE AMU❤️",
+        title: "LOVE YOU MORE AMU ❤️",
         message: "You are the cream cheese to my bagel!💕",
         emojis: "💖❤️💕"  // These will bounce around
     },
