@@ -223,28 +223,6 @@ h2 {
     backdrop-filter: blur(4px);
 }
 
-.share-container {
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(0,0,0,0.05);
-}
-
-.share-btn {
-    background: transparent;
-    border: 2px solid var(--button-color);
-    color: var(--text-color);
-    padding: 8px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: all 0.2s;
-}
-
-.share-btn:hover {
-    background: var(--button-color);
-    color: white;
-}
-
 /* Screen reader only */
 .sr-only {
     position: absolute;
