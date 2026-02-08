@@ -79,9 +79,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Setup music player
     setupMusicPlayer();
-
-    // Setup Share Button
-    setupShareButton();
 });
 
 // Create floating hearts and bears
