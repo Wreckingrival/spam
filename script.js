@@ -239,18 +239,4 @@ function setupMusicPlayer() {
 
 // Share Link Setup
 function setupShareButton() {
-    const shareBtn = document.getElementById('shareBtn');
-    if (!shareBtn) return;
-
-    shareBtn.addEventListener('click', () => {
-        window.ValentineConfig.copyShareLink().then(success => {
-            if (success) {
-                const originalText = shareBtn.textContent;
-                shareBtn.textContent = "Link Copied! ❤️";
-                setTimeout(() => {
-                    shareBtn.textContent = originalText;
-                }, 2000);
-            }
-        });
-    });
 }
